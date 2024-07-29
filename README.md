@@ -1,5 +1,5 @@
 # Proyecto Clima
-![]([https://github.com/Federicoleyria/dataproyect/blob/main/images/flojo-trabajo.PNG])
+![]([https://github.com/Federicoleyria/dataproyect/images/flojo-trabajo.PNG])
 ## Descripción
 Proyecto Clima es una aplicación diseñada para recopilar y analizar datos climáticos de la ciudad de Córdoba utilizando la API de OpenWeatherMap. La aplicación está implementada en Python y orquestada con Apache Airflow para ejecutar tareas ETL (Extracción, Transformación y Carga) diariamente. Utiliza Docker para asegurar un entorno de ejecución consistente y manejable, y PostgreSQL como base de datos para almacenar los datos recopilados.
 
