@@ -1,0 +1,252 @@
+[2024-07-29 19:23:57,364] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:23:57,435] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:23:57,533] {logging_mixin.py:115} INFO - [2024-07-29 19:23:57,531] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:23:59,817] {logging_mixin.py:115} INFO - [2024-07-29 19:23:59,479] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:23:59,823] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:24:02,169] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 5.477 seconds
+[2024-07-29 19:24:15,343] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:24:15,605] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:24:15,817] {logging_mixin.py:115} INFO - [2024-07-29 19:24:15,817] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:24:17,633] {logging_mixin.py:115} INFO - [2024-07-29 19:24:17,367] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:24:17,647] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:24:19,650] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 4.546 seconds
+[2024-07-29 19:24:34,958] {processor.py:153} INFO - Started process (PID=183) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:24:35,011] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:24:35,083] {logging_mixin.py:115} INFO - [2024-07-29 19:24:35,083] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:24:37,315] {logging_mixin.py:115} INFO - [2024-07-29 19:24:37,308] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:24:37,319] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:24:38,708] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 4.225 seconds
+[2024-07-29 19:24:52,177] {processor.py:153} INFO - Started process (PID=188) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:24:52,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:24:52,222] {logging_mixin.py:115} INFO - [2024-07-29 19:24:52,222] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:24:54,312] {logging_mixin.py:115} INFO - [2024-07-29 19:24:54,294] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:24:54,315] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:24:55,921] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 4.072 seconds
+[2024-07-29 19:25:07,859] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:25:07,862] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:25:07,864] {logging_mixin.py:115} INFO - [2024-07-29 19:25:07,863] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:25:08,243] {logging_mixin.py:115} INFO - [2024-07-29 19:25:08,239] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:25:08,245] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:25:08,544] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 0.972 seconds
+[2024-07-29 19:25:22,676] {processor.py:153} INFO - Started process (PID=198) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:25:22,696] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:25:22,723] {logging_mixin.py:115} INFO - [2024-07-29 19:25:22,720] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:25:23,473] {logging_mixin.py:115} INFO - [2024-07-29 19:25:23,380] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:25:23,480] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:25:23,682] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 1.413 seconds
+[2024-07-29 19:25:40,504] {processor.py:153} INFO - Started process (PID=203) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:25:40,516] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:25:40,531] {logging_mixin.py:115} INFO - [2024-07-29 19:25:40,531] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:25:43,381] {logging_mixin.py:115} INFO - [2024-07-29 19:25:43,211] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:25:43,402] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:25:50,064] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 13.049 seconds
+[2024-07-29 19:26:04,040] {processor.py:153} INFO - Started process (PID=208) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:26:04,142] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:26:04,245] {logging_mixin.py:115} INFO - [2024-07-29 19:26:04,241] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:26:05,284] {logging_mixin.py:115} INFO - [2024-07-29 19:26:05,237] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:26:05,297] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:26:08,218] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 5.280 seconds
+[2024-07-29 19:26:24,172] {processor.py:153} INFO - Started process (PID=213) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:26:24,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:26:24,310] {logging_mixin.py:115} INFO - [2024-07-29 19:26:24,308] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:26:25,854] {logging_mixin.py:115} INFO - [2024-07-29 19:26:25,706] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:26:25,863] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:26:28,832] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 5.561 seconds
+[2024-07-29 19:26:42,000] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:26:42,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:26:43,069] {logging_mixin.py:115} INFO - [2024-07-29 19:26:43,046] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:26:44,781] {logging_mixin.py:115} INFO - [2024-07-29 19:26:44,584] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:26:44,796] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:26:45,685] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 5.489 seconds
+[2024-07-29 19:26:59,511] {processor.py:153} INFO - Started process (PID=223) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:26:59,542] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:26:59,545] {logging_mixin.py:115} INFO - [2024-07-29 19:26:59,543] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:27:00,236] {logging_mixin.py:115} INFO - [2024-07-29 19:27:00,221] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:27:00,257] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:27:02,113] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 2.778 seconds
+[2024-07-29 19:27:13,615] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:27:13,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:27:13,621] {logging_mixin.py:115} INFO - [2024-07-29 19:27:13,621] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:27:17,675] {logging_mixin.py:115} INFO - [2024-07-29 19:27:15,019] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:27:17,704] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:27:19,230] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 5.890 seconds
+[2024-07-29 19:27:30,022] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:27:34,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:27:34,218] {logging_mixin.py:115} INFO - [2024-07-29 19:27:34,218] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:27:40,298] {logging_mixin.py:115} INFO - [2024-07-29 19:27:40,152] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:27:40,327] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:27:41,185] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 11.294 seconds
+[2024-07-29 19:27:54,593] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:27:58,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:27:58,736] {logging_mixin.py:115} INFO - [2024-07-29 19:27:58,725] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:28:00,756] {logging_mixin.py:115} INFO - [2024-07-29 19:28:00,722] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:28:00,760] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:28:01,802] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 8.558 seconds
+[2024-07-29 19:28:12,993] {processor.py:153} INFO - Started process (PID=243) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:28:13,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:28:13,154] {logging_mixin.py:115} INFO - [2024-07-29 19:28:13,153] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:28:13,998] {logging_mixin.py:115} INFO - [2024-07-29 19:28:13,908] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:28:14,003] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:28:17,606] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 4.934 seconds
+[2024-07-29 19:28:28,086] {processor.py:153} INFO - Started process (PID=248) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:28:28,722] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:28:28,793] {logging_mixin.py:115} INFO - [2024-07-29 19:28:28,790] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:28:29,312] {logging_mixin.py:115} INFO - [2024-07-29 19:28:29,303] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:28:29,327] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:28:30,843] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 2.923 seconds
+[2024-07-29 19:28:42,350] {processor.py:153} INFO - Started process (PID=253) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:28:42,402] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:28:42,462] {logging_mixin.py:115} INFO - [2024-07-29 19:28:42,462] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:28:44,197] {logging_mixin.py:115} INFO - [2024-07-29 19:28:44,087] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:28:44,207] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:28:53,332] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 11.525 seconds
+[2024-07-29 19:29:16,247] {processor.py:153} INFO - Started process (PID=258) to work on /opt/airflow/dags/main.py
+[2024-07-29 19:29:16,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-07-29 19:29:16,256] {logging_mixin.py:115} INFO - [2024-07-29 19:29:16,256] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-07-29 19:29:23,143] {logging_mixin.py:115} INFO - [2024-07-29 19:29:22,436] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 5, in <module>
+    from dags.etl import fetch_weather_data
+ModuleNotFoundError: No module named 'dags'
+[2024-07-29 19:29:23,305] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-07-29 19:29:33,605] {processor.py:161} INFO - Processing /opt/airflow/dags/main.py took 22.060 seconds
